@@ -131,8 +131,8 @@ Here are the course summary as its given on the course [link](https://www.course
   - `Ny is the size of the output vector`
   - `X(1) is the first input vector`
   - `Y(1) is the first output vector`
-  - `X = [x(1) x(2).. x(M)]`
-  - `Y = (y(1) y(2).. y(M))`
+  - `X = [x(1) x(2).. x(M)] where x belongs to R^Nx, X.shape=(N, M)`  
+  - `Y = (y(1) y(2).. y(M)) where y belones to {0, 1}, Y.shape=(1, M)`
 - We will use python in this course.
 - In NumPy we can make matrices and make operations on them in a fast and reliable time.
 
@@ -147,6 +147,8 @@ Here are the course summary as its given on the course [link](https://www.course
     - While `b` is `w0` of `w` and we add `x0 = 1`. but we won't use this notation in the course (Andrew said that the first notation is better).
 - In binary classification `Y` has to be between `0` and `1`.
 - In the last equation `w` is a vector of `Nx` and `b` is a real number
+![log](Images/Others/04.png)
+
 
 ### Logistic regression cost function
 
